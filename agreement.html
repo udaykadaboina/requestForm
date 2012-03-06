@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Data Request Form :: DATA ACCESS AND USE AGREEMENT</title>
+<link rel="stylesheet" type="text/css" href="css/view.css" media="all"/>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> 
+
+<script type="text/javascript" >
+$(document).ready(function() {
+$('div#nextBtn').hide();
+ $("#agree").click( function(){
+    if( $(this).is(':checked')) {
+           $('#nextBtn').fadeIn();
+    } else {
+        $('#nextBtn').fadeOut();
+    }
+    });
+    });
+
+</script>
+
+<!-- form2Wizard -->
+  <style type="text/css">
+        body { font-family:Lucida Sans, Arial, Helvetica, Sans-Serif; font-size:13px; margin:20px;}
+      
+      .style1
+      {
+          text-align: justify;
+      }
+  </style>
+    
+
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="images/top.png" alt=""/>
+<div id="form_container"><h2>UNM :: DATA ACCESS AND USE AGREEMENT</h2> <hr />
+
+<p class="style1">Data stored on The University of New Mexico (UNM) computers are an institutional resource belonging to the University. These data are available to qualified individuals for University-related uses. The user agrees to make responsible and ethical use of the data in cooperation with the offices that manage and maintain the data, the offices with functional or custodial responsibility.</p>
+
+<p class="style1"><b>The user should understand that some data are confidential, and may be sensitive. </b>The indiscriminate use or release of such data could bring harm to the university, an individual student, or interfere with the function of a UNM organization.</p>
+
+<p class="style1">The user should avoid, if possible, making data requests to multiple offices to minimize the duplication of effort accross offices. Problems are unlikely to materialize in an atmosphere of courtesy, cooperation and dialogue between the requesting user and the office with functional or custodial responsibility.</p> 
+
+<p class="style1">A qualified user will adhere to the following conditions. Failure to meet these conditions can result in the loss of access to University data.
+
+<ol>
+<li><p class="style1">A qualified user is an employee of, or is associated with, UNM. A user request should be submitted on this form and must be approved by the Approving Authority in the Responsible Office, the academic Department Chairperson or Program Director, and by the Enrollment Management Reporting Team (EMRT).</li></p>
+
+<li><p class="style1">Whenever possible, the user will use official census data.</li></p>
+
+<li><p class="style1">The user will abide by these guidelines, and by any additional guidelines provided by the academic Department Chairperson or Program Director and/or by the Enrollment Management Reporting Team (EMRT), and also by the provisions of the Family Educational Rights and Privacy Act of 1974 (FERPA), also known as the Buckley Amendment.</li></p>
+
+<li><p class="style1">The user understands that no sensitive data, including address lists or mailing labels, should be released or redisclosed to other parties without agreement from the EMRT. Such agreement should be explicitly obtained when reports or publications derived from analysis of the data are to be released. Furthermore, confidential (Unit-Record) data will never be released to third parties. In no case should data be released specific to any student for whom a privacy flag is set (in accordance with FERFA).</li></p>
+</ol>
+</p>
+<p class="style1"><b>By checking box below, you have read and will comply with the policy set forth in the above agreement as it pertains to data described in the Data Access and Use Agreement.</b></p>
+
+<label class="s_radio"></label><input type="checkbox" class="required" id="agree" /><a class="s_main_color" href="#">I agree</a>
+		<div id="nextBtn"><p align="center" ><a href="form.html" class="mybutton" ><img src="images/agree.jpg" /></a></p></div>
+		<div id="footer">
+			<p>Enrollment Management Reporting Team :: UNM</p>
+		</div>
+</div>
+	
+		<img id="bottom" src="images/bottom.png" alt=""/>
+	
+	</body>
+</html>
